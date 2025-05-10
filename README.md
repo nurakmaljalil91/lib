@@ -37,6 +37,23 @@ To add a new library to this repository, follow these steps:
     git commit -m "Added <library-name> as a submodule"
     ```
 
+### Adding STB as a Submodule
+
+To add STB as a submodule, follow these steps:
+1. Navigate to the repository's root directory:
+    ```bash
+    cd /path/to/this/repository
+    ```
+2. Add the STB library as a submodule:
+    ```bash
+    git submodule add https://github.com/nurakmaljalil91/stb
+
+    ```
+3. Commit the changes:
+    ```bash
+    git commit -m "Added STB as a submodule"
+    ```
+
 ### Updating Submodules
 
 To update all submodules to their latest versions, run:
@@ -60,6 +77,8 @@ lib/
 ├── SDL2/
 ├── simdjson/
 ├── spdlog/
+├── stb/
+└── tinyobjloader/
 
 ```
 
