@@ -54,6 +54,22 @@ To add STB as a submodule, follow these steps:
     git commit -m "Added STB as a submodule"
     ```
 
+### Adding IMGUI as a Submodule
+To add IMGUI as a submodule, follow these steps:
+
+1. Navigate to the repository's root directory:
+    ```bash
+    cd /path/to/this/repository
+    ```
+2. Add the IMGUI library as a submodule:
+    ```bash
+    git submodule add https://github.com/nurakmaljalil91/imgui
+    ```
+3. Commit the changes:
+    ```bash
+    git commit -m "Added IMGUI as a submodule"
+    ```
+
 ### Updating Submodules
 
 To update all submodules to their latest versions, run:
@@ -69,6 +85,7 @@ lib/
 ├── entt/
 ├── glad/
 ├── glm/
+├── imgui/
 ├── glm/
 ├── rapidjson/
 ├── SDL_image/
@@ -88,6 +105,7 @@ lib/
 - [entt](https://github.com/cpp-utilities/entt)
 - [glad](https://github.com/Dav1dde/glad)
 - [glm](https://github.com/g-truc/glm)
+- [imgui](https://github.com/ocornut/imgui)
 - [rapidjson](https://github.com/Tencent/rapidjson)
 - [SDL_image](https://github.com/libsdl-org/SDL_image)
 - [SDL_mixer](https://github.com/libsdl-org/SDL_mixer)
@@ -95,6 +113,8 @@ lib/
 - [SDL2](https://github.com/libsdl-org/SDL)
 - [simdjson](https://github.com/simdjson/simdjson)
 - [spdlog](https://github.com/gabime/spdlog)
+- [stb](https://github.com/nurakmaljalil91/stb)
+- [tinyobjloader](https://github.com/tinyobjloader/tinyobjloader)
 
 ## Contributing
 
