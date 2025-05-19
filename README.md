@@ -82,6 +82,7 @@ git submodule update --remote
 
 ```
 lib/
+├── dirent/
 ├── entt/
 ├── glad/
 ├── glm/
@@ -102,6 +103,7 @@ lib/
 - Each library is stored in its own directory under the `lib/` folder.
 
 ## Libraries Included
+- [dirent](https://github.com/tronkko/dirent)
 - [entt](https://github.com/cpp-utilities/entt)
 - [glad](https://github.com/Dav1dde/glad)
 - [glm](https://github.com/g-truc/glm)
